@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
   <head>
-    <title>Portafolio Carlos Riaño</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estiloscss/reset.css" />
+    <link rel="stylesheet" href="estiloscss/fondoHeader.css" />
+    <link rel="stylesheet" href="estiloscss/fondo.css" />
     <link rel="stylesheet" href="estiloscss/reset.css" />
     <link rel="stylesheet" href="estiloscss/styleHeaderFoo.css" />
     <link rel="stylesheet" href="estiloscss/styleIndex.css" />
@@ -17,156 +15,225 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <title>Document</title>
   </head>
+
   <body>
-    <div class="caja-encabezado">
-      <nav>
+    <nav class="menu-container">
+      <!-- logo -->
+      <a href="index.html" class="menu-logo">
+        <img
+          src="images/pinterest_board_photo-removebg-preview.png"
+          alt="My Awesome Website"
+        />
+      </a>
+
+      <!-- menu items -->
+      <div class="menu">
         <ul>
           <li><a href="#about">Acerca de mí</a></li>
           <li><a href="#work">Trabajos</a></li>
           <li><a href="index.html">Home</a></li>
           <li><a href="contacto.html"> Contacto</a></li>
         </ul>
-      </nav>
+      </div>
+    </nav>
+
+    <div class="area">
+      <header>
+        <div >
+          <ul class="contenedor-perfil">
+            <li>
+              <img
+                class="formato-perfil"
+                src="images/pic00.png"
+                alt="foto-perfil"
+              />
+            </li>
+            <li>
+              <div class="nombre-principal">
+                <h2>Carlos Riaño</h2>
+                <p>
+                  Este es mi portafolio para que conozca mis trabajos pasados y
+                  proyectos futuros
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <section id="about">
+          <div class="texto-presentacion">
+            <h3 class="colorTitulo1">Sobre mí</h3>
+            <p>
+              Soy un joven apasionado por el desarrollo de videojuegos y quiero
+              salir adelante, siempre dando lo mejor de mí, estoy aprendiendo
+              constantemente, deseando dominar cosas nuevas cada día, me gusta
+              el ajedrez, la lectura, tocar la guitarra, bailar, programar y
+              muchas otras cosas más.
+            </p>
+          </div>
+
+          <div class="contenido-hobies">
+            <ul>
+              <li>
+                <h3 class="colorTitulo2">Lo que he trabajado</h3>
+                <p>
+                  Soy un desarrollador Full Stack con experiencia en HTML, CSS y
+                  JavaScript. Además, poseo un excelente manejo del lenguaje C#
+                  y conocimientos intermedios en Java y C++. También tengo
+                  experiencia en manejo de bases de datos, tanto en MySql como
+                  en Sql Server. Poseo habilidades en Unity 3D y conocimientos
+                  básicos en Unreal Engine 4.2.2.
+                </p>
+              </li>
+              <li>
+                <h3 class="colorTitulo2">Hobbies</h3>
+                <p>
+                  Tocar guitarra, leer, jugar ajedrez, bailar, tocar piano y
+                  hacer ejercicio.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="work">
+          <h2 class="colorTitulo2">Trabajos</h2>
+          <p>
+            En esta sección, podrás encontrar los proyectos más recientes en los
+            que estoy trabajando en el desarrollo de páginas web.
+          </p>
+          <div class="proyectos">
+            <ul>
+              <li>
+                <h3>Barberia Alura</h3>
+                <a
+                  href="https://carlosedu1234.github.io/Barberia/"
+                  target="_blank"
+                  ><img src="images/peluqueriaAlura.png" alt="peluqueria"
+                /></a>
+
+                <p>Pagina de peluqueria</p>
+              </li>
+              <li>
+                <h3>Encriptador</h3>
+                <a
+                  href="https://carlosedu1234.github.io/Encriptador/"
+                  target="_blank"
+                  ><img src="images/encriptador.png" alt=""
+                /></a>
+
+                <p>Encriptador de frases.</p>
+              </li>
+            </ul>
+          </div>
+
+          <p>
+            En esta sección encontrarás los proyectos más recientes relacionados
+            con videojuegos
+          </p>
+          <div class="proyectos">
+            <ul>
+              <li>
+                <h3>The Last Change</h3>
+                <a
+                  href="https://sharemygame.com/@Carlos97/lastchange"
+                  target="_blank"
+                  ><img src="images/pic01.jpg" alt=""
+                /></a>
+
+                <p>Juego de Zombies.</p>
+              </li>
+              <li>
+                <h3>Defend the hordes</h3>
+                <a
+                  href="https://sharemygame.com/@Carlos97/defend-the-hordes"
+                  target="_blank"
+                  ><img src="images/pic02.jpg" alt=""
+                /></a>
+                <p>Juego de defensa de torres.</p>
+              </li>
+              <li>
+                <h3>The Survival</h3>
+                <a
+                  href="https://sharemygame.com/@Carlos97/the-survival"
+                  target="_blank"
+                  ><img src="images/pic03.jpg" alt=""
+                /></a>
+                <p>Juego de Nave.</p>
+              </li>
+              <li>
+                <h3>The Boost</h3>
+                <a
+                  href="https://sharemygame.com/@Carlos97/the-boost"
+                  target="_blank"
+                  ><img src="images/pic04.jpg" alt=""
+                /></a>
+                <p>Juego de Plataformas.</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="contenedor-list-footer">
+          <h2 class="espacionEntrespamT">Otras Redes De Contacto</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/carlosedu1234" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/carlosedu1234/"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://app.aluracursos.com/user/eduar9908"
+                target="_blank"
+              >
+                <img
+                  class="alura"
+                  src="images/Vector.png"
+                  alt="logo de alura"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://carlosedu1234.000webhostapp.com/"
+                target="_blank"
+              >
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="espacionEntrespam">&copy; 2023 Carlos Riaño</p>
+      </footer>
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
-
-    <header>
-      <div class="contenedor-perfil">
-        <img class="formato-perfil" src="images/pic00.png" alt="foto-perfil" />
-        <div class="nombre-principal">
-          <h2>Carlos Riaño</h2>
-          <p>
-            Este es mi portafolio para que conozca mis trabajos pasados y
-            proyectos futuros
-          </p>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <section id="about">
-        <div class="texto-presentacion">
-          <h3>Sobre mí</h3>
-          <p>
-            Soy un joven apasionado por el desarrollo de videojuegos y quiero
-            salir adelante, siempre dando lo mejor de mí, estoy aprendiendo
-            constantemente, deseando dominar cosas nuevas cada día, me gusta el
-            ajedrez, la lectura, tocar la guitarra, bailar, programar y muchas
-            otras cosas más.
-          </p>
-        </div>
-
-        <div class="contenido-hobies">
-          <ul>
-            <li>
-              <h3>Lo que he trabajado</h3>
-              <p>
-                Soy un desarrollador Full Stack con experiencia en HTML, CSS y
-                JavaScript. Además, poseo un excelente manejo del lenguaje C# y
-                conocimientos intermedios en Java y C++. También tengo
-                experiencia en manejo de bases de datos, tanto en MySql como en
-                Sql Server. Poseo habilidades en Unity 3D y conocimientos
-                básicos en Unreal Engine 4.2.2.
-              </p>
-            </li>
-            <li>
-              <h3>Hobbies</h3>
-              <p>
-                Tocar guitarra, leer, jugar ajedrez, bailar, tocar piano y hacer
-                ejercicio.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section id="work">
-        <h2>Trabajos</h2>
-        <p >
-          En esta sección, podrás encontrar los proyectos más recientes en los
-          que estoy trabajando en el desarrollo de páginas web.
-        </p>
-        <div class="proyectos">
-          <ul>
-            <li>
-              <h3>Barberia Alura</h3>
-              <a href="https://carlosedu1234.github.io/Barberia/" target="_blank"><img src="images/peluqueriaAlura.png" alt="peluqueria" /></a>
-
-              <p>Pagina de peluqueria</p>
-            </li>
-            <li>
-              <h3>Encriptador</h3>
-              <a href="https://carlosedu1234.github.io/Encriptador/" target="_blank" ><img src="images/encriptador.png" alt=""  /></a>
-              
-              <p>Encriptador de frases.</p>
-            </li>
-          </ul>
-        </div>
-
-        <p>
-          En esta sección encontrarás los proyectos más recientes relacionados con videojuegos
-        </p>
-        <div class="proyectos">
-          <ul>
-            <li>
-              <h3>The Last Change</h3>
-              <a href="https://sharemygame.com/@Carlos97/lastchange" target="_blank"><img src="images/pic01.jpg" alt="" /></a>
-              
-              <p>Juego de Zombies.</p>
-            </li>
-            <li>
-              <h3>Defend the hordes</h3>
-              <a href="https://sharemygame.com/@Carlos97/defend-the-hordes" target="_blank"><img src="images/pic02.jpg" alt="" /></a>
-              <p>Juego de defensa de torres.</p>
-            </li>
-            <li>
-              <h3>The Survival</h3>
-              <a href="https://sharemygame.com/@Carlos97/the-survival" target="_blank"><img src="images/pic03.jpg" alt="" /></a>
-              <p>Juego de Nave.</p>
-            </li>
-            <li>
-              <h3>The Boost</h3>
-              <a href="https://sharemygame.com/@Carlos97/the-boost" target="_blank"><img src="images/pic04.jpg" alt="" /></a>
-              <p>Juego de Plataformas.</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="contenedor-list-footer">
-        <h2>Otras Redes De Contacto</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/carlosedu1234" target="_blank">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/carlosedu1234/"
-              target="_blank"
-            >
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://app.aluracursos.com/user/eduar9908"
-              target="_blank"
-            >
-              <img class="alura" src="images/Vector.png" alt="logo de alura" />
-            </a>
-          </li>
-          <li>
-            <a href="https://carlosedu1234.000webhostapp.com/" target="_blank">
-              <ion-icon name="briefcase-outline"></ion-icon>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <p>&copy; 2023 Carlos Riaño</p>
-    </footer>
   </body>
+
   <script
     type="module"
     src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
