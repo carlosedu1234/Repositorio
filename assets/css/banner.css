@@ -2,63 +2,27 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-
-
 .caja-encabezado {
   position: relative;
   height: 2em;
   text-align: right;
   padding-top: 0.5em;
-  background: rgb(187, 187, 187,0.5);
-
-}
-.formato-logo {
-  width: 15%;
-  box-shadow: 1px 1px 4px 10px rgb(0, 0, 0, 0.5);
-}
-
-.formato-logo:hover {
-  transition: 1s;
-  transform: rotate(15deg);
-}
-
-nav {
-
-  right: 0;
-}
-
-nav li {
-  display: inline;
-  margin: 0 0 0 15px;
-}
-
-nav a {
-  text-transform: uppercase;
-  color: #000000;
-  font-weight: bold;
-  font-size: 23px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #c78c19;
-  text-decoration: underline;
+  background: rgb(187, 187, 187, 0.5);
 }
 
 h1 {
   margin: 0;
 }
 .contenedor-perfil {
-margin-top: 2em;
+ padding-top: 2em;
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-around;
   height: 50%;
   text-align: center;
   color: aliceblue;
-
 }
 .formato-perfil {
-  border-radius: 50%;
+  border-radius: 100%;
   min-width: 200px;
   width: 30%;
   margin: 1em;
@@ -90,10 +54,9 @@ h2 {
   text-align: center;
   font-size: 1.5em;
   color: aliceblue;
-  
 }
 .contenido-hobies ul {
-  margin: 5em 0;
+
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -105,7 +68,7 @@ h2 {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 1em;
-  color:white;
+  color: white;
 }
 
 .colorTitulo2 {
@@ -114,38 +77,14 @@ h2 {
   font-weight: bold;
   margin-top: 1em;
   margin-bottom: 1em;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .contenido-hobies li {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   width: 40%;
   margin: 1em;
-  
-
-}
-
-footer {
-  padding: 40px;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.7);
-  color: #cdcdcd;
-}
-
-.espacionEntrespamT{
-  margin-bottom: 1em;
-}
-.espacionEntrespam{
-
-  margin: 1em;
-}
-
-
-.copyrtight {
-  color: white;
-  font-size: 13px;
-  margin: 20px;
 }
 
 @media screen and (max-width: 480px) {

@@ -3,6 +3,17 @@ body {
     font-family: Sans-Serif;
     margin: 0;
   }
+  nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+  }
+  nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+  }
   
   .menu-container {
     position: relative;
@@ -15,6 +26,7 @@ body {
     -webkit-user-select: none;
     user-select: none;
     box-sizing: border-box;
+    margin: 0px;
 
   }
   

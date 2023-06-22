@@ -1,36 +1,4 @@
 
-header {
-  color: #fff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin-left: 1em;
-}
-
-section {
-  margin: 2em;
-}
-
-section h2 {
-  font-size: 2em;
-  margin: 1em;
-}
-
-section p {
-  font-size: 1.2em;
-}
 
 #work p{
 
