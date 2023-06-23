@@ -90,9 +90,8 @@ h2 {
 @media screen and (max-width: 480px) {
   .caja-encabezado,
   .contenedor-list-footer {
-    width: auto;
+    width: 100%;
     text-align: center;
-    max-width: 300px;
   }
 
   nav {

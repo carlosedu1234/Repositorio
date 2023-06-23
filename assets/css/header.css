@@ -112,10 +112,11 @@ body {
   }
   
   /* mobile styles */
-  @media only screen and (max-width: 767px) { 
+  @media only screen and (max-width: 300px) { 
     .menu-container {
+      display: flex;
       flex-direction: column;
-      align-items: flex-end;
+      
     }
     
     .menu-logo {
@@ -151,17 +152,24 @@ body {
   }
   
   /* desktop styles */
-  @media only screen and (min-width: 768px) { 
+  @media only screen and (max-width: 768px) { 
     .menu-container {
+    
+      text-align: center;
       width: 100%;
+
     }
   
     .menu-container a {
       color: #cdcdcd;
+       
+     
+      
     }
   
     .menu-container input {
       display: none;
+      
     }
   
     /* Burger menu */
@@ -173,7 +181,8 @@ body {
       position: relative;
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
+      
     }
   
     .menu ul {

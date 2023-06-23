@@ -1,20 +1,22 @@
-
-
-#work p{
-
+#work p {
   text-align: center;
 }
 .proyectos ul {
-  
   text-align: center;
-
 }
 .proyectos li {
   display: inline-block;
   margin: 1em;
   text-align: center;
+  height: 40vh;
   width: 30%;
   overflow: hidden;
+}
+
+.proyectos li:hover {
+
+  transform: scale(1.05);
+  transition: 1s;
 }
 
 .proyectos h3 {
@@ -23,12 +25,11 @@
 }
 
 .proyectos li img {
-  max-height: 200px;
-  min-width: 200px;
+  height: 100%;
+  width: 100%;
   margin: 1em;
   box-shadow: 10px 10px 0px 0px rgba(92, 90, 90, 0.5);
 }
-
 
 ion-icon {
   font-size: 42px;
@@ -42,4 +43,44 @@ ion-icon {
   text-align: center;
   display: inline;
   margin: 0 0.5em;
+}
+
+
+@media only screen and (max-width: 767px) { 
+  .proyectos{
+    width: 100vw;
+
+  }
+.containerBody{
+width: 100vw;
+margin-right: 0;
+padding: 0;
+
+  }
+  .contenedorUl{
+width: 100%;
+margin-right: 0px;
+text-align: center;
+padding: 0;
+  }
+
+  .contenedorUl li{
+width: 98%;
+  }
+  ul{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .proyectos li img {
+ margin: 1em 0;
+ width: 100%;
+
+  }
 }
