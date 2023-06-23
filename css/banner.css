@@ -8,6 +8,7 @@ body {
   text-align: right;
   padding-top: 0.5em;
   background: rgb(187, 187, 187, 0.5);
+  
 }
 
 h1 {
@@ -90,8 +91,13 @@ h2 {
 @media screen and (max-width: 480px) {
   .caja-encabezado,
   .contenedor-list-footer {
-    width: 100%;
+    width: 100vh;
+    box-sizing: border-box;
     text-align: center;
+  }
+
+  .nombre-principal {
+    width: 80vh;
   }
 
   nav {
@@ -100,6 +106,7 @@ h2 {
     margin: 1%;
   }
 
+  
   .contenedor-movil,
   .conProductos {
     width: auto;

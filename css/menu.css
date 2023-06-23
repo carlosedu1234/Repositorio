@@ -14,7 +14,6 @@
 }
 
 .proyectos li:hover {
-
   transform: scale(1.05);
   transition: 1s;
 }
@@ -45,30 +44,36 @@ ion-icon {
   margin: 0 0.5em;
 }
 
+@media only screen and (max-width: 767px) {
 
-@media only screen and (max-width: 767px) { 
-  .proyectos{
+  #work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .proyectos {
     width: 100vw;
-
   }
-.containerBody{
-width: 100vw;
-margin-right: 0;
-padding: 0;
-
+  .containerBody {
+    width: 100vh;
+    margin: 0;
+    margin-right: 0;
+    padding: 0;
   }
-  .contenedorUl{
-width: 100%;
-margin-right: 0px;
-text-align: center;
-padding: 0;
+  .contenedorUl {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right: 0px;
+    text-align: center;
+    padding: 0;
   }
 
-  .contenedorUl li{
-width: 98%;
+  .contenedorUl li {
+    margin: 0 auto;
+    width: 98%;
   }
-  ul{
-
+  ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -79,8 +84,9 @@ width: 98%;
   }
 
   .proyectos li img {
- margin: 1em 0;
- width: 100%;
+    margin: 1em 0;
+    margin-bottom: 1em;
+    width: 100%;
 
   }
 }
