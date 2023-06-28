@@ -3,6 +3,10 @@ main {
   margin: 0 auto;
 }
 
+.contacto-color{
+
+  background: rgb(77, 77, 77,1);
+}
 form {
   margin: 40px 0;
 }
@@ -61,25 +65,9 @@ th {
 
 @media screen and (max-width: 480px) {
 
-  .contenido-formularioo{
-    width: auto;
-  }
+ body{
 
-  .contenido-formulario form{
-    width: 70%;
-  }
-  .contenido-patron {
-    display: block;
-    padding: 10px 20px;
-    margin-top: 1em;
-    margin-left: 4px;
-    margin-bottom: 15px;
-    width: 50%;
-    font-size: 20px;
-  }
-
-  form label{
-    width: 60%;
-  }
+  width: 100vh;
+ }
   
 }

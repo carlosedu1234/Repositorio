@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./css/fondo.css" />
     <link rel="stylesheet" href="./css/banner.css" />
     <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/sobreMi.css" />
+    <link rel="stylesheet" href="./css/hobbies.css" />
+    <link rel="stylesheet" href="./css/skills.css" />
+    <link rel="stylesheet" href="./css/fomacionAcademica.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,70 +23,56 @@
     <title>Portafolio</title>
     <link
       rel="icon"
-      type="images/png"
+      type="image/png"
       href="./images/pinterest_board_photo-removebg-preview.png"
     />
   </head>
 
   <body class="containerBody">
-    <nav class="menu-container">
-      <!-- logo -->
-      <a href="index.html" class="menu-logo">
-        <img
-          src="./images/pinterest_board_photo-removebg-preview.png"
-          alt="My Awesome Website"
-        />
-      </a>
+    <div class="container-header">
+      <nav class="menu-container">
+        <!-- logo -->
+        <a href="index.html" class="menu-logo">
+          <img
+            src="./images/pinterest_board_photo-removebg-preview.png"
+            alt="My Awesome Website"
+          />
+        </a>
 
-      <!-- menu items -->
-      <div class="menu">
-        <ul>
-          <li><a href="#about">Acerca de mí</a></li>
-          <li><a href="#work">Trabajos</a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="./screens/contacto.html"> Contacto</a></li>
-        </ul>
-      </div>
-    </nav>
+        <!-- nav items -->
+        <div class="menu">
+          <ul>
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#work">Trabajos</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./screens/contacto.html"> Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <!-- banner -->
-    <section class="area">
-      <header>
-        <div >
-          <ul class="contenedor-perfil contenedorUl">
-            <li>
-              <img
-                class="formato-perfil"
-                src="./images/pic00.png"
-                alt="foto-perfil"
-              />
-            </li>
-            <li>
-              <div class="nombre-principal ">
-                <h2>Carlos Riaño</h2>
-                <p>
-                  Este es mi portafolio para que conozca mis trabajos pasados y
-                  proyectos futuros
-                </p>
-              </div>
-            </li>
-            <li></li>
-          </ul>
-        
-
-        <div class="texto-presentacion">
-          <h3 class="colorTitulo1">Sobre mí</h3>
-          <p>
-            Soy un joven apasionado por el desarrollo web y tengo un firme
-            deseo de superarme. Siempre me esfuerzo al máximo estando en
-            constante aprendizaje, buscando dominar nuevas habilidades cada
-            día. Además de mi amor por la programación, encuentro alegría en
-            jugar ajedrez, sumergirme en la lectura, expresarme a través de la
-            guitarra, disfrutar del baile y explorar una amplia variedad de
-            intereses.
-          </p>
+    <header class="area">
+      <div>
+        <div class="contenedor-perfil">
+          <div>
+            <img
+              class="formato-perfil"
+              src="./images/pic00.png"
+              alt="foto-perfil"
+            />
+          </div>
+          <div class="nombre-principal-conteiner">
+            <h2 class="titulo_presentacion">Carlos Riaño</h2>
+            <p class="texto__presentacion">
+              Me complace presentarte mi portafolio, donde podrás conocer mis
+              trabajos pasados y explorar mis proyectos futuros. Aquí
+              encontrarás una recopilación de mis logros, habilidades y
+              experiencias en el campo que me apasiona.
+            </p>
+          </div>
         </div>
-        
+
         <ul class="circles">
           <li></li>
           <li></li>
@@ -96,175 +86,316 @@
           <li></li>
         </ul>
       </div>
+    </header>
+
+    <!-- menu -->
+    <main class="container.main">
+      <!-- sobre mi -->
+      <section class="colorFondosobreMi">
+        <div class="sobreMi-container">
+          <h3 class="colorTitulo1">Sobre mí</h3>
+          <p class="sobreMi__texto">
+            Soy un joven apasionado por el desarrollo web y tengo un firme deseo
+            de superarme. Siempre me esfuerzo al máximo estando en constante
+            aprendizaje, buscando dominar nuevas habilidades cada día. Además de
+            mi amor por la programación, encuentro alegría en jugar ajedrez,
+            sumergirme en la lectura, expresarme a través de la guitarra,
+            disfrutar del baile y explorar una amplia variedad de intereses.
+          </p>
+        </div>
       </section>
 
-       <!-- menu -->
-      <main>
-        <section id="about">
-          
+      <!-- skills -->
 
-          <div class="contenido-hobies">
-            <ul class="contenedorUl">
-              <li>
-                <h3 class="colorTitulo2">Lo que he trabajado</h3>
-                <p>
-                  Soy un desarrollador Full Stack enfocado en el front-end con
-                  experiencia sólida en HTML, CSS y JavaScript, y un enfoque
-                  especial en el desarrollo con React. Además, tengo un
-                  excelente dominio del lenguaje C# y poseo conocimientos
-                  intermedios en Java y C++. También cuento con experiencia en
-                  el manejo de bases de datos, tanto en MySQL como en MongoDB.
-                  Además, cuento con habilidades en Unity 3D y poseo
-                  conocimientos avanzados en el uso de Git y Node.js.
-                </p>
-              </li>
-              <li>
-                <h3 class="colorTitulo2">Hobbies</h3>
-                <p>
-                  Entre mis pasatiempos y actividades favoritas se encuentran
-                  tocar la guitarra, leer, jugar ajedrez, bailar, tocar el piano
-                  y hacer ejercicio. A través de la música, la lectura y el
-                  baile encuentro expresión y alegría. El ajedrez despierta mi
-                  mente estratégica y el ejercicio me mantiene en forma
-                </p>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <section id="work">
-          <h2 class="colorTitulo2">Trabajos</h2>
-          <p>
-            En esta sección, podrás encontrar mis proyectos web más recientes en
-            los que estoy trabajando. Si deseas explorar otros trabajos en
-            desarrollo, visita mi perfil en
-            <a href="https://github.com/carlosedu1234" target="_blank">GitHub</a>.
-          </p>
-          <div class="proyectos">
-            <ul class="contenedorUl">
-              <li>
-                <h3>listado clientes</h3>
-                <a
-                  href="https://github.com/carlosedu1234/TiendaMascotas"
-                  target="_blank"
-                  ><img src="./images/tiendaMascotas.png" alt=""
-                /></a>
-
-                <p>Encriptador de frases.</p>
-              </li>
-              <li>
-                <h3>Barberia Alura</h3>
-                <a
-                  href="https://carlosedu1234.github.io/Barberia/"
-                  target="_blank"
-                  ><img src="./images/peluqueriaAlura.png" alt="peluqueria"
-                /></a>
-
-                <p>Pagina de peluqueria</p>
-              </li>
-              <li>
-                <h3>Encriptador</h3>
-                <a
-                  href="https://carlosedu1234.github.io/Encriptador/"
-                  target="_blank"
-                  ><img src="./images/encriptador.png" alt=""
-                /></a>
-
-                <p>Encriptador de frases.</p>
-              </li>
-            </ul>
-          </div>
-
-          <p>
-            En esta sección encontrarás los proyectos más recientes relacionados
-            con videojuegos
-          </p>
-          <div class="proyectos">
-            <ul class="contenedorUl">
-              <li>
-                <h3>The Last Change</h3>
-                <a
-                  href="https://sharemygame.com/@Carlos97/lastchange"
-                  target="_blank"
-                  ><img src="./images/pic01.jpg" alt=""
-                /></a>
-
-                <p>Juego de Zombies.</p>
-              </li>
-              <li>
-                <h3>Defend the hordes</h3>
-                <a
-                  href="https://sharemygame.com/@Carlos97/defend-the-hordes"
-                  target="_blank"
-                  ><img src="./images/pic02.jpg" alt=""
-                /></a>
-                <p>Juego de defensa de torres.</p>
-              </li>
-              <li>
-                <h3>The Survival</h3>
-                <a
-                  href="https://sharemygame.com/@Carlos97/the-survival"
-                  target="_blank"
-                  ><img src="./images/pic03.jpg" alt=""
-                /></a>
-                <p>Juego de Nave.</p>
-              </li>
-              <li>
-                <h3>The Boost</h3>
-                <a
-                  href="https://sharemygame.com/@Carlos97/the-boost"
-                  target="_blank"
-                  ><img src="./images/pic04.jpg" alt=""
-                /></a>
-                <p>Juego de Plataformas.</p>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </main>
-
-      <footer>
-        <div class="contenedor-list-footer">
-          <h2 class="espacionEntrespamT">Otras Redes De Contacto</h2>
-          <ul>
+      <section>
+        <div class="skills-container">
+          <h4 class="skills__titulo">Skills</h4>
+          <ul class="skills-container__img">
             <li>
-              <a href="https://github.com/carlosedu1234" target="_blank">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
+              <img
+                class="unity"
+                src="./images/imagesSkils/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f756e69747933642f756e69747933642d69636f6e2e737667.svg"
+                alt="unity.img"
+              />
+              <p>Unity</p>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/in/carlosedu1234/"
-                target="_blank"
-              >
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
+              <img src="./images/imagesSkils/csharp-original.svg" alt="C#" />
+              <p>C#</p>
             </li>
             <li>
-              <a
-                href="https://app.aluracursos.com/user/eduar9908"
-                target="_blank"
-              >
-                <img
-                  class="alura"
-                  src="./images/Vector.png"
-                  alt="logo de alura"
-                />
-              </a>
+              <img
+                src="./images/imagesSkils/css3-original-wordmark.svg"
+                alt="Css"
+              />
+              <p>Css</p>
             </li>
             <li>
-              <a
-                href="https://carlosedu1234.000webhostapp.com/"
-                target="_blank"
-              >
-                <ion-icon name="briefcase-outline"></ion-icon>
-              </a>
+              <img
+                src="./images/imagesSkils/html5-original-wordmark.svg"
+                alt="html"
+              />
+              <p>Html</p>
+            </li>
+            <li>
+              <img src="./images/imagesSkils/java-original.svg" alt="java" />
+              <p>Java</p>
+            </li>
+            <li>
+              <img
+                src="./images/imagesSkils/javascript-original.svg"
+                alt="js"
+              />
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <img
+                src="./images/imagesSkils/mongodb-original-wordmark.svg"
+                alt="mdb"
+              />
+              <p>MongoDb</p>
+            </li>
+            <li>
+              <img
+                src="./images/imagesSkils/mysql-original-wordmark.svg"
+                alt="mysql"
+              />
+              <p>MySql</p>
+            </li>
+            <li>
+              <img
+                src="./images/imagesSkils/react-original-wordmark.svg"
+                alt="react"
+              />
+              <p>React</p>
+            </li>
+            <li>
+              <img
+                src="./images/imagesSkils/nodejs-original-wordmark.svg"
+                alt="node"
+              />
+              <p>NodeJs</p>
             </li>
           </ul>
         </div>
-        <p class="espacionEntrespam">&copy; 2023 Carlos Riaño</p>
-      </footer>
-     
+      </section>
+
+      <!-- hobbies-->
+      <section id="about">
+        <div class="hobbies-container">
+          <h4 class="skills__titulo">Hobbies</h4>
+          <ul class="hobbies-container__img">
+            <li>
+              <img
+                src="./images/imagens-honnies/png-clipart-book-computer-icons-reading-reading-blue-child-removebg-preview.png"
+                alt="leer"
+              />
+              <p>Leer</p>
+            </li>
+            <li>
+              <img src="./images/imagens-honnies/ajedrez.png" alt="ajedrez" />
+              <p>Ajedrez</p>
+            </li>
+            <li>
+              <img src="./images/imagens-honnies/guitarra.png" alt="guitarra" />
+              <p>Guitarra</p>
+            </li>
+            <li>
+              <img
+                src="./images/imagens-honnies/download__5_-removebg-preview.png"
+                alt="piano"
+              />
+              <p>Piano</p>
+            </li>
+            <li>
+              <img
+                src="./images/imagens-honnies/images__5_-removebg-preview.png"
+                alt="deportes"
+              />
+              <p>Deportes</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- formacion Academica-->
+      <section>
+        <div class="fondo-formacion">
+        <div class="formacion-conteiner">
+          <h2 class="titulo-formacion">Formacion Academica</h2>
+          <ul class="formacion-conteiner__academica">
+            <li>
+              <img src="./images/certificados/Sin título.png" alt="ingenieria.en">
+              <div class="container-texto-certificados">
+              <h3>Ingenieria de Sistemas</h3>
+              <p>2018-2023 Universidad de Cundinamarca</p>
+            </div>
+            </li>
+            <li>
+              <img src="./images/certificados/certificado.png" alt="Front.en">
+              <div class="container-texto-certificados">
+              <h3>Formacion Front-End G5-ONE</h3>
+              <p>2023 Alura</p>
+            </div>
+            </li>
+            <li>
+              
+              <img src="./images/certificados/certificadoudemiFront.png" alt="Front.en">
+              <div class="container-texto-certificados">
+              <h3>FrontEnd Web Developer!</h3>
+              <p>2023 Udemy</p>
+            </div>
+            </li>
+            <li>
+              
+              <img src="./images/certificados/certificadoudemy.png" alt="Front.en">
+              <div class="container-texto-certificados">
+              <h3>Complete C# Unity Game Developer 3D</h3>
+              <p>2022 Udemy</p>
+            </div>
+            </li>
+
+            <li>
+              <img src="./images/certificados/certificadoudemisena.png" alt="Front.en">
+              <div class="container-texto-certificados">
+              <h3>Automatizacion Industrial</h3>
+              <p>2016-2018 Servicio Nacional de Aprendizaje</p>
+            </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </section>
+
+      <section id="work">
+        <h2 class="colorTitulo2">Experiencia Profesional</h2>
+        <p>
+          En esta sección, podrás encontrar mis proyectos web más recientes en
+          los que estoy trabajando. Si deseas explorar otros trabajos en
+          desarrollo, visita mi perfil en
+          <a href="https://github.com/carlosedu1234" target="_blank">GitHub</a>.
+        </p>
+        <div class="proyectos">
+          <ul class="contenedorUl">
+            <li>
+              <h3>listado clientes</h3>
+              <a
+                href="https://github.com/carlosedu1234/TiendaMascotas"
+                target="_blank"
+                ><img src="./images/tiendaMascotas.png" alt=""
+              /></a>
+
+              <p>Encriptador de frases.</p>
+            </li>
+            <li>
+              <h3>Barberia Alura</h3>
+              <a
+                href="https://carlosedu1234.github.io/Barberia/"
+                target="_blank"
+                ><img src="./images/peluqueriaAlura.png" alt="peluqueria"
+              /></a>
+
+              <p>Pagina de peluqueria</p>
+            </li>
+            <li>
+              <h3>Encriptador</h3>
+              <a
+                href="https://carlosedu1234.github.io/Encriptador/"
+                target="_blank"
+                ><img src="./images/encriptador.png" alt=""
+              /></a>
+
+              <p>Encriptador de frases.</p>
+            </li>
+          </ul>
+        </div>
+
+        <p>
+          En esta sección encontrarás los proyectos más recientes relacionados
+          con videojuegos
+        </p>
+        <div class="proyectos">
+          <ul class="contenedorUl">
+            <li>
+              <h3>The Last Change</h3>
+              <a
+                href="https://sharemygame.com/@Carlos97/lastchange"
+                target="_blank"
+                ><img src="./images/pic01.jpg" alt=""
+              /></a>
+
+              <p>Juego de Zombies.</p>
+            </li>
+            <li>
+              <h3>Defend the hordes</h3>
+              <a
+                href="https://sharemygame.com/@Carlos97/defend-the-hordes"
+                target="_blank"
+                ><img src="./images/pic02.jpg" alt=""
+              /></a>
+              <p>Juego de defensa de torres.</p>
+            </li>
+            <li>
+              <h3>The Survival</h3>
+              <a
+                href="https://sharemygame.com/@Carlos97/the-survival"
+                target="_blank"
+                ><img src="./images/pic03.jpg" alt=""
+              /></a>
+              <p>Juego de Nave.</p>
+            </li>
+            <li>
+              <h3>The Boost</h3>
+              <a
+                href="https://sharemygame.com/@Carlos97/the-boost"
+                target="_blank"
+                ><img src="./images/pic04.jpg" alt=""
+              /></a>
+              <p>Juego de Plataformas.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="contenedor-list-footer">
+        <h2 class="espacionEntrespamT">Otras Redes De Contacto</h2>
+        <ul class="contenedor__lu">
+          <li>
+            <a href="https://github.com/carlosedu1234" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/carlosedu1234/"
+              target="_blank"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://app.aluracursos.com/user/eduar9908"
+              target="_blank"
+            >
+              <img
+                class="alura"
+                src="./images/Vector.png"
+                alt="logo de alura"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://carlosedu1234.000webhostapp.com/" target="_blank">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="espacionEntrespam">&copy; 2023 Carlos Riaño</p>
+    </footer>
   </body>
 
   <script

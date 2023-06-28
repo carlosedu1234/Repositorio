@@ -1,0 +1,37 @@
+.sobreMi-container {
+  width: 80vw;
+  padding: 1px 0 3em;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+}
+
+.colorFondosobreMi{
+  background: rgb(77, 77, 77,0.2);
+}
+.colorTitulo1 {
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em 0;
+  color: rgb(0, 0, 0);
+}
+
+.sobreMi__texto {
+  width: 70%;
+  text-align: left;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:480px){
+
+  .sobreMi-container {
+    width: 100vw;
+  
+  }
+  
+  .sobreMi__texto {
+    width: 100%;
+  }
+}

@@ -30,3 +30,14 @@ footer {
     font-size: 13px;
     margin: 20px;
   }
+
+  @media screen and (max-width:480px){
+
+    .contenedor__lu {
+      width: 100vh;
+      display: flex;
+      justify-content: space-evenly;
+   flex-direction: row;
+    }
+    
+    }
