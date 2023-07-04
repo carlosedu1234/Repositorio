@@ -22,9 +22,15 @@
   font-weight: bold;
   font-size: 20px;
 }
+.proyectos a{
+
+  text-decoration: none;
+}
+
+
 
 .proyectos li img {
-  height: 100%;
+  height: 75%;
   width: 100%;
   margin: 1em;
   box-shadow: 10px 10px 0px 0px rgba(92, 90, 90, 0.5);
