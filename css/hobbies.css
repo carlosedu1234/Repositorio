@@ -30,6 +30,11 @@
   background: rgb(255, 255, 255);
   box-sizing: border-box;
 }
+.hobbies-container__img li:hover {
+  transition: 1s;
+  transform: scale(1.02);
+  background: rgb(126, 119, 119,0.2) ;
+}
 
 .hobbies-container__img li img {
   width: 40%;

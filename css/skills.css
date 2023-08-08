@@ -25,6 +25,12 @@ background: rgb(77, 77, 77, 0.1);
   box-sizing: border-box;
 }
 
+.skills-container__img li:hover {
+  transition: 1s;
+  transform: scale(1.02);
+  background: rgb(126, 119, 119,0.2) ;
+}
+
 .skills-container__img li img {
   width: 50%;
   height: 50%;
